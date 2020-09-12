@@ -1,24 +1,25 @@
 # ps-study
 백준 알고리즘 문제 풀이
 <br>
-👀 잘 잊어 버리는 + 주요 알고리즘 정리 용도 
+<br>
+👀 잘 잊어 버리는 주요 알고리즘 정리 용도‼️
 
 ## ✔️ 기본 알고리즘 정리
 ### O(log n^2) 정렬(2750) ⭐️⭐️⭐️
 1. 선택 정렬
 ```
 for(int i = 0; i < n; i++){
-        //가장 작은 수를 찾아
-        //key = 가장 작은 수의 인덱스
-        int key = i;
-        for(int j = i+1; j <n; j++){
-            if(num[j]<num[key])
-                key = j;
-        }
-        //교환
-        if(i != key) 
-            swap(num[i], num[key]);
-    }
+//가장 작은 수를 찾아
+//key = 가장 작은 수의 인덱스
+int key = i;
+for(int j = i+1; j <n; j++){
+    if(num[j]<num[key])
+        key = j;
+}
+//교환
+if(i != key) 
+    swap(num[i], num[key]);
+}
 ```
 
 2. 삽입 정렬
