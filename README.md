@@ -9,16 +9,17 @@
 1. 선택 정렬
 ```
 for(int i = 0; i < n; i++){
-//가장 작은 수를 찾아
-//key = 가장 작은 수의 인덱스
-int key = i;
-for(int j = i+1; j <n; j++){
-    if(num[j]<num[key])
-        key = j;
-}
-//교환
-if(i != key) 
-    swap(num[i], num[key]);
+    //가장 작은 수를 찾아
+    //key = 가장 작은 수의 인덱스
+    int key = i;
+    for(int j = i+1; j <n; j++){
+        if(num[j]<num[key])
+            key = j;
+    }
+    //교환
+    if(i != key) 
+        swap(num[i], num[key]);
+    }
 }
 ```
 
