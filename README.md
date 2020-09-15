@@ -75,6 +75,29 @@ int main(){
 }
 ```
 
+### pair
+
+- pair 배열을 sorting할 때 알아두면 좋은 tip: 첫번째 원소 기준 정렬하고, 첫번째 원소가 같을 경우 두번째 원소 기준 정렬
+- 11650, 11651, 1181 참고
+```
+#include <utility>  //pair
+#include <vector>
+
+int main(){
+    pair<int, int> p;   //생성
+    vector<pair<int, int> > pairs;
+    
+    //원소 추가
+    p.make_pair(1, 1);
+    for(int i = 0; i < 5; i++){
+        pairs.push_back(make_pair(1, 1));
+    }
+    
+    //원소 접근 - first, second
+    cout << p.first << " " << p.second;
+}
+```
+
 ------------------------------------
 ### 다시 
 - 2231, 7568
