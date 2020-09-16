@@ -84,8 +84,8 @@ bool compare(int a, int b){ //오름차순
     return a < b;
 }
 ```
-- 원소들의 상대적 위치가 바뀌지 않는 **stable_sort()** 도 있다!! (10814번 참고)
-[sort](http://www.cplusplus.com/reference/algorithm/sort/)
+- 원소들의 상대적 위치가 바뀌지 않는 **stable_sort()** 도 있다!! (10814번 참고)<br>
+[sort](http://www.cplusplus.com/reference/algorithm/sort/) vs.
 [stable_sort](http://www.cplusplus.com/reference/algorithm/stable_sort/)
 
 ### pair
