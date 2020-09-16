@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-bool compare(pair<int, string>& a, pair<int, string>& b){
+bool compare(pair<int, string>& a, pair<int, string>& b){ //첫번째 원소 기준 오름차순 정렬
     return a.first < b.first;
 }
 
@@ -20,6 +20,7 @@ int main(){
         p.push_back(make_pair(age, name));
     }
 
+    //stable_sort : 정렬하기 전의 순서가 정렬 후에도 유지됨(!=sort)
     stable_sort(p.begin(), p.end(), compare);
 
     for(int i = 0; i < n; i++){
