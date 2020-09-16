@@ -75,6 +75,19 @@ int main(){
 }
 ```
 
+### sort
+- sort(첫번째, 마지막 원소) 혹은
+- sort(첫번째, 마지막 원소, 비교함수)
+- 비교함수 형태
+```
+bool compare(int a, int b){ //오름차순
+    return a < b;
+}
+```
+- 원소들의 상대적 위치가 바뀌지 않는 **stable_sort()** 도 있다!! (10814번 참고)
+[sort](http://www.cplusplus.com/reference/algorithm/sort/)
+[stable_sort](http://www.cplusplus.com/reference/algorithm/stable_sort/)
+
 ### pair
 
 - pair 배열을 sorting할 때 알아두면 좋은 tip: 첫번째 원소 기준 정렬하고, 첫번째 원소가 같을 경우 두번째 원소 기준 정렬
