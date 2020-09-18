@@ -115,8 +115,12 @@ int main(){
 
 ### stack
 - stack 라이브러리
+- 생성:
+```
+stack<int> s;
+```
 - push(추가), pop(삭제), top(최근 원소 조회), empty(비어 있는지 아닌지 체크), size(스택 크기)
-- 10828,
+- [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp)
 
 ------------------------------------
 ### 다시 
