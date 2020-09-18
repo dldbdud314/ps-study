@@ -92,7 +92,7 @@ bool compare(int a, int b){ //오름차순
 ### pair
 
 - pair 배열을 sorting할 때 알아두면 좋은 tip: 첫번째 원소 기준 정렬하고, 첫번째 원소가 같을 경우 두번째 원소 기준 정렬
-- 11650, 11651, 1181 참고
+- [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp)
 ```
 #include <utility>  //pair
 #include <vector>
@@ -114,4 +114,4 @@ int main(){
 
 ------------------------------------
 ### 다시 
-- 2231, 7568
+- **2231, 7568**
