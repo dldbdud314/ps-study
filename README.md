@@ -5,7 +5,8 @@
 👀 내가 보려고 정리해둔 잘 잊어 버리는 주요 알고리즘 + 잡다한 팁 모음‼️
 
 ## ✔️ 기본 알고리즘 정리
-### O(log n^2) 정렬(2750) ⭐️⭐️⭐️
+### O(n^2) 정렬 ⭐️⭐️⭐️
+- [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp)
 1. 선택 정렬
 ```
 for(int i = 0; i < n; i++){
@@ -75,10 +76,24 @@ int main(){
 }
 ```
 
+### sort
+- algorithm 라이브러리 
+- sort(첫번째, 마지막 원소) 혹은
+- sort(첫번째, 마지막 원소, 비교함수)
+- 비교함수 형태
+```
+bool compare(int a, int b){ //오름차순
+    return a < b;
+}
+```
+- 원소들의 상대적 위치가 바뀌지 않는 **stable_sort()** 도 있다!! ([10814](https://github.com/dldbdud314/ps-study/blob/master/10814.cpp))<br>
+[sort](http://www.cplusplus.com/reference/algorithm/sort/) vs.
+[stable_sort](http://www.cplusplus.com/reference/algorithm/stable_sort/)
+
 ### pair
 
 - pair 배열을 sorting할 때 알아두면 좋은 tip: 첫번째 원소 기준 정렬하고, 첫번째 원소가 같을 경우 두번째 원소 기준 정렬
-- 11650, 11651, 1181 참고
+- [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp)
 ```
 #include <utility>  //pair
 #include <vector>
@@ -98,6 +113,11 @@ int main(){
 }
 ```
 
+### stack
+- stack 라이브러리
+- push(추가), pop(삭제), top(최근 원소 조회), empty(비어 있는지 아닌지 체크), size(스택 크기)
+- 10828,
+
 ------------------------------------
 ### 다시 
-- 2231, 7568
+- **2231, 7568**
