@@ -140,7 +140,6 @@ cin.sync_with_stdio(false);
 이렇게 하면 C의 printf, scanf만큼 빨라짐
 
 2. 개행
-<br>
 endl 대신 '\n'
 
 ------------------------------------
