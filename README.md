@@ -122,6 +122,26 @@ stack<int> s;
 - push(추가), pop(삭제), top(최근 원소 조회), empty(비어 있는지 아닌지 체크), size(스택 크기)
 - [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp)
 
+### queue
+- queue 라이브러리
+- 생성:
+```
+queue<int> q;
+```
+- push(맨뒤 추가), pop(맨앞 삭제), front(맨앞 원소 반환), back(맨뒤 원소 반환), empty(비어 있는지 아닌지 체크), size(큐 크기)
+
+### 기타
+#### C++ 시간초과 해결 tip
+1. 입출력 속도 up
+```
+cin.tie(NULL);
+cin.sync_with_stdio(false);
+```
+이렇게 하면 C의 printf, scanf만큼 빨라짐
+
+2. 개행
+endl 대신 '\n'
+
 ------------------------------------
 ### 다시 
 - **2231, 7568**
