@@ -135,6 +135,7 @@ stack<int> s;
 queue<int> q;
 ```
 - push(맨뒤 추가), pop(맨앞 삭제), front(맨앞 원소 반환), back(맨뒤 원소 반환), empty(비어 있는지 아닌지 체크), size(큐 크기)
+- 우ㅓㄴ순위 큐 priority_queue도 존재
 
 ### 기타
 #### C++ 시간초과 해결 tip
