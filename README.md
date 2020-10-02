@@ -109,6 +109,9 @@ endl 대신 '\n'
 - 선택정렬, 삽입정렬, 버블정렬
 - 참고: [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp)
 
+### 분할정복(divide and conquer)
+- 기본 아이디어: divide(쪼개고)+conquer/merge(필요하면 합치기)
+- 재귀함수 활용
 
 ------------------------------------
 ### 다시 
