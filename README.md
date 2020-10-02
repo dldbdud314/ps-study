@@ -8,57 +8,7 @@
 - 브루트포스: [2798](https://github.com/dldbdud314/ps-study/blob/master/2798.cpp), [2231](https://github.com/dldbdud314/ps-study/blob/master/2231.cpp)⭐️⭐️, [7568](https://github.com/dldbdud314/ps-study/blob/master/7568.cpp)⭐️⭐️, [1018](https://github.com/dldbdud314/ps-study/blob/master/1018.cpp)⭐️
 - 정렬: [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp), [2751](https://github.com/dldbdud314/ps-study/blob/master/2751.cpp), [1427](https://github.com/dldbdud314/ps-study/blob/master/1427.cpp), [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp), [10814](https://github.com/dldbdud314/ps-study/blob/master/10814.cpp)
 - 스택: [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [4949](https://github.com/dldbdud314/ps-study/blob/master/4949.cpp)⭐️
-- 큐, 덱: [18258](https://github.com/dldbdud314/ps-study/blob/master/18258.cpp), [2164](https://github.com/dldbdud314/ps-study/blob/master/2164.cpp), [11866](https://github.com/dldbdud314/ps-study/blob/master/11866.cpp), [1966](https://github.com/dldbdud314/ps-study/blob/master/1966.cpp)⭐️, [10866](https://github.com/dldbdud314/ps-study/blob/master/10866.cpp)
-
-## ✔️ 기본 알고리즘 정리
-### O(n^2) 정렬 ⭐️⭐️⭐️
-- [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp)
-1. 선택 정렬
-```
-for(int i = 0; i < n; i++){
-    //가장 작은 수를 찾아
-    //key = 가장 작은 수의 인덱스
-    int key = i;
-    for(int j = i+1; j <n; j++){
-        if(num[j]<num[key])
-            key = j;
-    }
-    //교환
-    if(i != key) 
-        swap(num[i], num[key]);
-    }
-}
-```
-
-2. 삽입 정렬
-```
-//이미 정렬된 i-1까지의 배열과 정렬되지 않은 나머지(여기에 key)
-for(int i = 1; i < n; i++){
-    int key = num[i];
-    //정렬된 원소와 key를 비교해서 하나씩 뒤로 밀고
-    int j;
-    for(j = i-1; j>=0 && num[j]>key; j--){
-        num[j+1]=num[j];
-    }
-    //교환
-    num[j+1] = key;
-}
-```
-
-3. 버블 정렬
-```
-bool swapped = true;
-for(int i = n-1; i>=0 && swapped; i--){
-    swapped = false;
-    for(int j = 0; j < i; j++){
-        if(num[j]>num[j+1])
-            swap(num[j], num[j+1]);
-            swapped = true;
-    }
-    //한 회전 끝나면 가장 큰 원소가 맨 뒤에 위치
-    //교환이 한번도 일어나지 않으면(완벽 정렬) 수행 끝(!swapped)
-}
-```
+- 큐, 덱: [18258](https://github.com/dldbdud314/ps-study/blob/master/18258.cpp), [2164](https://github.com/dldbdud314/ps-study/blob/master/2164.cpp), [11866](https://github.com/dldbdud314/ps-study/blob/master/11866.cpp), [1966](https://github.com/dldbdud314/ps-study/blob/master/1966.cpp)⭐️, [10866](https://github.com/dldbdud314/ps-study/blob/master/10866.cpp), [1021](https://github.com/dldbdud314/ps-study/blob/master/1021.cpp)⭐️
 
 ## 🔑 유용한 STL 정리
 ### vector
@@ -98,8 +48,8 @@ bool compare(int a, int b){ //오름차순
 
 ### pair
 
-- pair 배열을 sorting할 때 알아두면 좋은 tip: 첫번째 원소 기준 정렬하고, 첫번째 원소가 같을 경우 두번째 원소 기준 정렬
-- [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp)
+- pair 배열을 sorting할 때: 첫번째 원소 기준 정렬하고, 첫번째 원소가 같을 경우 두번째 원소 기준 정렬
+- 참고: [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp)
 ```
 #include <utility>  //pair
 #include <vector>
@@ -126,7 +76,6 @@ int main(){
 stack<int> s;
 ```
 - push(추가), pop(삭제), top(최근 원소 조회), empty(비어 있는지 아닌지 체크), size(스택 크기)
-- [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp)
 
 ### queue
 - queue 라이브러리
@@ -135,7 +84,11 @@ stack<int> s;
 queue<int> q;
 ```
 - push(맨뒤 추가), pop(맨앞 삭제), front(맨앞 원소 반환), back(맨뒤 원소 반환), empty(비어 있는지 아닌지 체크), size(큐 크기)
-- 우ㅓㄴ순위 큐 priority_queue도 존재
+- 우선순위 큐 priority_queue도 존재
+
+### deque
+- deque 라이브러리
+- push_back, push_front, pop_back, pop_front, front, back, empty, size 
 
 ### 기타
 #### C++ 시간초과 해결 tip
@@ -146,8 +99,15 @@ cin.sync_with_stdio(false);
 ```
 이렇게 하면 C의 printf, scanf만큼 빨라짐
 
-2. 개행
+2. 개행<br>
 endl 대신 '\n'
+
+
+## ✔️ 기본 알고리즘 정리
+### O(n^2) 정렬 ⭐️⭐️⭐️
+- 선택정렬, 삽입정렬, 버블정렬
+- 참고: [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp)
+
 
 ------------------------------------
 ### 다시 
