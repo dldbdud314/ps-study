@@ -9,7 +9,7 @@
 - 정렬: [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp), [2751](https://github.com/dldbdud314/ps-study/blob/master/2751.cpp), [1427](https://github.com/dldbdud314/ps-study/blob/master/1427.cpp), [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp), [10814](https://github.com/dldbdud314/ps-study/blob/master/10814.cpp)
 - 스택: [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [4949](https://github.com/dldbdud314/ps-study/blob/master/4949.cpp)⭐️
 - 큐, 덱: [18258](https://github.com/dldbdud314/ps-study/blob/master/18258.cpp), [2164](https://github.com/dldbdud314/ps-study/blob/master/2164.cpp), [11866](https://github.com/dldbdud314/ps-study/blob/master/11866.cpp), [1966](https://github.com/dldbdud314/ps-study/blob/master/1966.cpp)⭐️, [10866](https://github.com/dldbdud314/ps-study/blob/master/10866.cpp), [1021](https://github.com/dldbdud314/ps-study/blob/master/1021.cpp)⭐️
-- 분할정복: [2630](https://github.com/dldbdud314/ps-study/blob/master/2630.cpp)
+- 분할정복: [2630](https://github.com/dldbdud314/ps-study/blob/master/2630.cpp), [1992](https://github.com/dldbdud314/ps-study/blob/master/1992.cpp)
 
 ## 🔑 유용한 STL 정리
 ### vector
