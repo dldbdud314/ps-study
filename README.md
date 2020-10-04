@@ -9,7 +9,7 @@
 - 정렬: [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp), [2751](https://github.com/dldbdud314/ps-study/blob/master/2751.cpp), [1427](https://github.com/dldbdud314/ps-study/blob/master/1427.cpp), [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp), [10814](https://github.com/dldbdud314/ps-study/blob/master/10814.cpp)
 - 스택: [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [4949](https://github.com/dldbdud314/ps-study/blob/master/4949.cpp)⭐️
 - 큐, 덱: [18258](https://github.com/dldbdud314/ps-study/blob/master/18258.cpp), [2164](https://github.com/dldbdud314/ps-study/blob/master/2164.cpp), [11866](https://github.com/dldbdud314/ps-study/blob/master/11866.cpp), [1966](https://github.com/dldbdud314/ps-study/blob/master/1966.cpp)⭐️, [10866](https://github.com/dldbdud314/ps-study/blob/master/10866.cpp), [1021](https://github.com/dldbdud314/ps-study/blob/master/1021.cpp)⭐️
-- 분할정복: [2630](https://github.com/dldbdud314/ps-study/blob/master/2630.cpp), [1992](https://github.com/dldbdud314/ps-study/blob/master/1992.cpp)
+- 분할정복: [2630](https://github.com/dldbdud314/ps-study/blob/master/2630.cpp), [1992](https://github.com/dldbdud314/ps-study/blob/master/1992.cpp), [1780](https://github.com/dldbdud314/ps-study/blob/master/1780.cpp), [1629](https://github.com/dldbdud314/ps-study/blob/master/1629.cpp)⭐️⭐️
 
 ## 🔑 유용한 STL 정리
 ### vector
@@ -112,6 +112,17 @@ endl 대신 '\n'
 ### 분할정복(divide and conquer)
 - 기본 아이디어: divide(쪼개고)+conquer/merge(필요하면 합치기)
 - 재귀함수 활용
+
+
+## 📒 도우미
+### 1629 - 곱셈(분할정복)
+> for문 활용하면 되지 않아? O(n) 임에도 불구하고 시간초과 난다. 입력값이 1억을 넘을 수 있기 때문.
+> 분할정복 활용해서 시간복잡도를 O(log n)로 줄이기(calc(m, n/2)xcalc(m, n/2) 이런 식으로)
+> 그러면 결과값이 기하급수적으로 커짐 -> int 대신 long long을 쓰자!
+> 그럼에도 불구하고 계산하다 보면 이 범위를 뛰어넘음.. 중간중간에 c 모듈러로 사이즈 줄여주기👀 (왜 c로 모듈러?!)
+> ⭐️⭐️ 왜냐하면 **(AxB)%C == (R(A)xR(B))%C**이기 때문
+
+- [1629](https://github.com/dldbdud314/ps-study/blob/master/1629.cpp)
 
 ------------------------------------
 ### 다시 
