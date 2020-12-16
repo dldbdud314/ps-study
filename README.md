@@ -4,6 +4,7 @@
 
 ## 🔄 문제 목록 (푸는대로 업데이트 할꺼여)
 - 문자열: [11720](https://github.com/dldbdud314/ps-study/blob/master/11720.cpp), [10809](https://github.com/dldbdud314/ps-study/blob/master/10809.cpp), [2675](https://github.com/dldbdud314/ps-study/blob/master/2675.cpp), [1157](https://github.com/dldbdud314/ps-study/blob/master/1157.cpp), [1152](https://github.com/dldbdud314/ps-study/blob/master/1152.cpp), [1316](https://github.com/dldbdud314/ps-study/blob/master/1316.cpp)
+- 수학1: [1712](https://github.com/dldbdud314/ps-study/blob/master/1712.cpp)
 - 재귀: [10872](https://github.com/dldbdud314/ps-study/blob/master/10872.cpp), [10870](https://github.com/dldbdud314/ps-study/blob/master/10870.cpp)
 - 브루트포스: [2798](https://github.com/dldbdud314/ps-study/blob/master/2798.cpp), [2231](https://github.com/dldbdud314/ps-study/blob/master/2231.cpp)⭐️⭐️, [7568](https://github.com/dldbdud314/ps-study/blob/master/7568.cpp)⭐️⭐️, [1018](https://github.com/dldbdud314/ps-study/blob/master/1018.cpp)⭐️
 - 정렬: [2750](https://github.com/dldbdud314/ps-study/blob/master/2750.cpp), [2751](https://github.com/dldbdud314/ps-study/blob/master/2751.cpp), [1427](https://github.com/dldbdud314/ps-study/blob/master/1427.cpp), [11650](https://github.com/dldbdud314/ps-study/blob/master/11650.cpp), [11651](https://github.com/dldbdud314/ps-study/blob/master/11651.cpp), [1181](https://github.com/dldbdud314/ps-study/blob/master/1181.cpp), [10814](https://github.com/dldbdud314/ps-study/blob/master/10814.cpp)
