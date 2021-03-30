@@ -5,9 +5,11 @@ int tiles[1001];
 
 int tiling(int n){
     if(tiles[n]) return tiles[n];
-    tiles[n] = tiling(n-1) + 2 * tiling(n-2);
     
-    return tiles[n]%10007;
+    for(int i = 3; i <= n; i++){
+        tiles[i] = (tiles[i-1] + tiles[i-2]*2)%10007;
+    }
+    return tiles[n];
 }
 
 int main(){
