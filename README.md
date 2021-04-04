@@ -11,7 +11,7 @@
 - 스택: [10828](https://github.com/dldbdud314/ps-study/blob/master/10828.cpp), [10773](https://github.com/dldbdud314/ps-study/blob/master/10773.cpp), [9012](https://github.com/dldbdud314/ps-study/blob/master/9012.cpp), [4949](https://github.com/dldbdud314/ps-study/blob/master/4949.cpp)⭐️
 - 큐, 덱: [18258](https://github.com/dldbdud314/ps-study/blob/master/18258.cpp), [2164](https://github.com/dldbdud314/ps-study/blob/master/2164.cpp), [11866](https://github.com/dldbdud314/ps-study/blob/master/11866.cpp), [1966](https://github.com/dldbdud314/ps-study/blob/master/1966.cpp)⭐️, [10866](https://github.com/dldbdud314/ps-study/blob/master/10866.cpp), [1021](https://github.com/dldbdud314/ps-study/blob/master/1021.cpp)⭐️
 - 분할정복: [2630](https://github.com/dldbdud314/ps-study/blob/master/2630.cpp), [1992](https://github.com/dldbdud314/ps-study/blob/master/1992.cpp), [1780](https://github.com/dldbdud314/ps-study/blob/master/1780.cpp), [1629](https://github.com/dldbdud314/ps-study/blob/master/1629.cpp)⭐️⭐️   
-- DP: [1463](https://github.com/dldbdud314/ps-study/blob/master/1463.cpp)⭐️⭐️, [11726](https://github.com/dldbdud314/ps-study/blob/master/11726.cpp), [11727](https://github.com/dldbdud314/ps-study/blob/master/11727.cpp), [9095](https://github.com/dldbdud314/ps-study/blob/master/9095.cpp)
+- DP: [1463](https://github.com/dldbdud314/ps-study/blob/master/1463.cpp)⭐️⭐️, [11726](https://github.com/dldbdud314/ps-study/blob/master/11726.cpp), [11727](https://github.com/dldbdud314/ps-study/blob/master/11727.cpp), [9095](https://github.com/dldbdud314/ps-study/blob/master/9095.cpp), [10844](https://github.com/dldbdud314/ps-study/blob/master/10844.cpp)⭐️⭐️
 
 ## 🔑 유용한 STL 정리
 ### vector
@@ -129,3 +129,8 @@ endl 대신 '\n'
 
 ## To-do
 - DP: 1463, 11726, 11727, 9095, 10844, 11057, 2193, 9465, 2156, 11053, 11055, 11722, 11054, 1912, 2579, 1699, 2133, 9461, 2225, 2011, 11052
+- 2751, 11650, 11651, 10814, 10825, 10989, 11652, 11004, 10828, 9012, 10799, 10845, 10866, 10808, 10809, 10820, 2743, 11655, 10824, 11656, 1406, 1158, 1168, 10430, 2609, 1934, 1850, 9613, 11005, 2745, 1373, 1212, 2089, 11576, 1978, 1929, 6588, 11653, 10872, 1676, 2004
+- BFS, DFS: 1260, 11724, 1707, 10451, 2331, 9466, 2667, 4963, 7576, 2178, 2146, 1991, 11725, 1167, 1967
+- 분할정복: 11728, 1780, 11729, 1992, 2447, 2448, 1517, 2261
+- Greedy: 11047, 2875, 10610, 1783, 1931, 11399, 2873, 1744
+- 완전탐색: 1476, 1107, 1451, 9095, 10819, 10971, 1697, 1963, 9019, 1525, 2251, 2186, 3108, 5014, 1759, 2580, 1987, 6603, 1182, 2003, 1806, 1644, 1261, 1208, 7453, 2632, 2143
